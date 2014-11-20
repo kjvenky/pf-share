@@ -1,0 +1,136 @@
+@import 'bootstrap';
+
+$arj-primary: #0888D7;
+$arj-primary-hover: #0876B9;
+$arj-secondary: #F4CB0A;
+$font-primary: white;
+$font-text: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-special: 'BebasNeue';
+$font-standard: 13px;
+
+body{
+	background: #F0F2F5;	
+}
+
+/* Helpers */
+input[type="text"],input[type="password"],input[type="email"],textarea{
+	font-size: 12px !important;
+}
+
+label{
+	font-size:12px;	
+}
+
+.panel-title {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3	px;
+}
+
+.panel-heading {
+	background: linear-gradient(to bottom, #FFF 0%,#EDEDED 100);
+	font-weight: bold;	
+}
+
+/* Login View */
+.login-body{
+	height:100%;
+	background: #00b7ea;
+	background: -moz-radial-gradient(center, ellipse cover, #00b7ea 0%, #009ec3 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#00b7ea), color-stop(100%,#009ec3));
+	background: -webkit-radial-gradient(center, ellipse cover, #00b7ea 0%,#009ec3 100%);
+	background: -o-radial-gradient(center, ellipse cover, #00b7ea 0%,#009ec3 100%);
+	background: -ms-radial-gradient(center, ellipse cover, #00b7ea 0%,#009ec3 100%);
+	background: radial-gradient(ellipse at center, #00b7ea 0%,#009ec3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 );
+}
+
+/* Content */
+.content{
+	width: 83%;
+	margin: 90px 30px 0px 16%;
+}
+
+/* Sidebar */
+.sidebar-heading {
+font-family: BebasNeue;
+text-align: center;
+font-size: 72px !important;
+width: 100%;
+}
+
+#sidebar{
+	height: auto;
+	padding-top: 60px;
+	background: #FFF;
+	border-bottom: 5px solid #F7F7F8 !important;	
+}
+
+.navbar-static-side{
+	z-index: 1;
+	position: absolute;
+	width: 15%;
+	min-height: 100%;
+	top: 0px;
+}
+
+ul#side-menu li>button{
+	margin-top: 10px;
+}
+
+/* Fonts */
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('fonts/BebasNeue-webfont.eot') format('eot'),
+	url('fonts/BebasNeue-webfont.woff') format('woff'),
+	url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+	url('fonts/BebasNeue-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Opensans';
+	src: url('fonts/OpenSans-Light-webfont.eot') format('eot'),
+	url('fonts/OpenSans-Light-webfont.woff') format('woff'),
+	url('fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+	url('fonts/OpenSans-Light-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.navbar-brand{
+	font-weight:normal;
+	letter-spacing:1px;	
+	font-family: $font-special;	
+}
+
+.nav{
+	li{
+		a:hover{
+			background: $arj-primary-hover;
+		}
+	}
+}
+
+.navbar-nav{
+	li{
+		a{
+			padding:15px 20px;
+			font-size: $font-standard;
+			font-weight:bold;
+		}
+	}
+}
+
+.navbar{
+	background: $arj-primary;
+	border-bottom: 5px solid $arj-secondary;
+	a {
+		font-weight:bold;
+		color: $font-primary;	
+	}
+	
+}
+
+/*  */

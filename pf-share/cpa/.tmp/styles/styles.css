@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background: #303741;
+}
+
+/* Make this draggable like in Circuit Lab */
+
+#pallete {
+  background: green;
+  padding: 0px;
+  margin: 30px 0px 0px;
+  position: fixed;
+}
+
+#header {
+  background: black;
+}
+
+#canvas {
+  background: red;
+  margin: -right:16%;
+}
+
+#footer {
+  background: black;
+}
+
+/* BootStrap overwrites*/
+
+/* Navbar CSS */
+
+.navbar {
+  min-height: 30px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+}

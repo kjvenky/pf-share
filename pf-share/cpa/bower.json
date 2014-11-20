@@ -1,0 +1,31 @@
+{
+  "name": "Flowsheeting",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kjvenky/generator-backbone-less",
+  "authors": [
+    "kjvenky <kjvenky@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "backbone": "~1.1.2",
+    "jasmine": "~2.0.0",
+    "require": "*",
+    "backbone.localStorage": "~1.1.9",
+    "requirejs-text": "~2.0.12",
+    "raphael": "~2.1.2",
+    "d3": "~3.4.10",
+    "backbone.bootstrap-modal": "~0.9.0",
+    "backbone-forms": "~0.14.0",
+    "requirejs": "~2.1.14",
+    "backbone.marionette": "~2.0.3"
+  }
+}

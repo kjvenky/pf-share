@@ -1,0 +1,280 @@
+body{
+	background-image: url('../imgs/background.jpg');
+}
+
+/* Fonts */
+@font-face { 
+	font-family: 'BebasNeue';
+	src: url('../fonts/BebasNeue-webfont.eot') format('eot'),
+	url('../fonts/BebasNeue-webfont.woff') format('woff'),
+	url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+	url('../fonts/BebasNeue-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Opensans';
+	src: url('../fonts/OpenSans-Light-webfont.eot') format('eot'),
+	url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+	url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+	url('../fonts/OpenSans-Light-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* */
+.detailview-tab{
+	font-size: 12px;
+	padding:8px 0px;
+	background: #181f25;
+	color:#fff;
+}
+
+.detailview-tab:hover{
+	font-size: 12px;
+	padding:8px 0px;
+	background: #333;
+	color:#fff;
+}
+
+.details{
+	padding: 8px 20px;
+}
+
+.item-add{
+	color:#fff;
+	font-size: 10px;
+	padding: 8px 0px;
+}
+
+.item-add:hover{
+	color:#F25B22;
+}
+
+/* Buttons */
+.topBtn{
+	border-radius: 0px;
+	background: #F25B22;
+	border: 0px;
+	font-family: 'Montserrat';
+	color:#fff;
+	padding: 15px 30px;
+	margin-right: 10px;
+}
+
+/* Navigation bar on top */
+.navbar-nav {
+	margin: 10px 0px 0px 50px;
+}
+
+.navbar{
+	margin-top: 20px;
+}
+
+.navbar-nav > li > a{
+	padding: 10px 30px;	
+	font-size: 12px;	
+	color: #e7e7e7;
+	font-weight: bold;
+	font-family: ;
+	border-radius: 3px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+	background: none; 
+}
+
+.nav > li > a{
+
+}
+
+.content{
+	background: #fff;
+	border-bottom:1px solid #E4E4E4
+}
+
+.content-last{
+	background: linear-gradient(to bottom,#E0E3E4 0,#E0E3E4 60%,#F6F7F7 100%);
+}
+
+.usp-text{
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Montserrat';
+	margin-top: 20px;
+}
+
+.row-title{
+	text-align: center;
+	font-family: 'Montserrat';
+	color: #fff;
+	font-size: 24px;
+}
+
+.row-content{
+	color: #fff;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding: 10px;
+}
+.row-content-2{
+	color: #fff;
+	text-align: center;
+	font-family: 'Montserrat';
+	padding:30px;
+}
+
+img.smallback{
+	border-radius: 5px 5px 0px 0px; 
+	height: 150px;
+	margin: 0px auto;
+
+}
+
+.item{
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Montserrat';
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.item .left{
+	margin-left: 5px;
+	padding: 10px 0px;
+}
+.item .right{
+	padding: 10px 0px;
+	margin-right: 5px;
+}
+/* Scrll bar style  :: Not working */
+.scrollbar
+{
+	margin-left: 30px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
+
+
+#scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#scrollbar::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+/* Section */
+.sec-title{
+	text-align: center;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	padding: 20px;
+}
+
+.sec-content{
+	font-family: 'Montserrat';
+	font-size: 18px;
+	padding: 0px 20px;
+	color: #999;
+}
+
+.sec-para{
+	font-family: 'Montserrat';
+	font-size: 12px;
+	padding: 10px 20px;
+	color: #999;	
+}
+
+/* Search */
+#search{
+	color:0px;
+	border:0px;
+	margin:0px;
+	color:#fff;
+	font-weight:bold;
+	font-size:12px;
+	border-radius:0px 5px 5px 0px;
+	padding:0px;
+	border:10px solid rgba(255,255,255,0.7);
+	border-left:0px;
+	margin-bottom: 30px
+}
+
+#search div{
+	padding:10px 30px;
+	background:#002B46;
+}
+
+input#searchbar{
+	background: #ddd;
+	width: 100%;
+	color:0px;
+	margin:0px;
+	font-size:12px;
+	padding:10px 0px 10px 20px;
+	border-radius:5px 0px 0px 5px;
+	border:10px solid rgba(255,255,255,0.7);
+}
+
+input#searchbar:focus, #search{
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+.search-container .col-sm-10, .col-sm-2{
+	padding: 0px;
+}
+
+/* Footer CSS */
+#prefooter{
+	background: #2D2D2D;
+	height:350px;
+	font-family: 'Montserrat';
+}
+
+#prefooter .pre-content{
+	color: #E7E7E7;
+}
+
+#prefooter .title{
+	font-size: 26px;
+	padding:40px 0px 20px;
+}
+
+#footer .pre-content {
+	font-size: 10px;
+	color:#666;
+	border:0px;
+	padding:12px;
+}
+
+#footer a{
+	color: #666;
+	padding: 0px 15px;
+}
+
+#footer{
+	background: #282828;
+}

@@ -1,0 +1,33 @@
+	<form action="https://test.payu.in/_payment" method="post" name="payuForm">
+		<table>
+			<tr>
+				<td><input type="hidden" type="hidden" name="key" value="C0Dr8m" /></td>
+				<td><input type="hidden" type="hidden" name="hash" value="4afba928f929361e93616a78566fc972ad643a019b0c2a8554ca0ce354e1f64e1081103c7f37d28748cc3e50595aff0c60f153fbb6d19a14b7e6f22dd62558ce" /></td>
+				<td><input type="hidden" type="hidden" name="txnid" value="rX5y0RCe" /></td>
+				<td><input type="hidden" name="amount" value="32" /></td>
+				<td><input type="hidden" name="firstname" id="firstname" value="Rosalyn" /></td>
+				<td><input type="hidden" name="email" id="email" value="nikesogite@gmail.com" /></td>
+				<td><input type="hidden" name="phone" value="9840942029" /></td>
+				<td><input type="hidden" name="productinfo" value="Farm Fresh Vegetables" size="64" /></td>
+				<td><input type="hidden" name="surl" value="http://localhost:9999/l2k/product/success_payment?transactionId=rX5y0RCe" size="64" /></td>
+				<td><input type="hidden" name="furl" value="http://localhost:9999/l2k/product/failure_payment?transactionId=rX5y0RCe" size="64" /></td>
+				<td><input type="hidden" name="lastname" id="lastname" value="" /></td>
+				<td><input type="hidden" name="curl" value="" /></td>
+				<td><input type="hidden" name="address1" value="" /></td>
+				<td><input type="hidden" name="address2" value="" /></td>
+				<td><input type="hidden" name="city" value="" /></td>
+				<td><input type="hidden" name="state" value="" /></td>
+				<td><input type="hidden" name="country" value="" /></td>
+				<td><input type="hidden" name="zipcode" value="" /></td>
+				<td><input type="hidden" name="udf1" value="" /></td>
+				<td><input type="hidden" name="udf2" value="" /></td>
+				<td><input type="hidden" name="udf3" value="" /></td>
+				<td><input type="hidden" name="udf4" value="" /></td>
+				<td><input type="hidden" name="udf5" value="" /></td>
+				<td><input type="hidden" name="pg" value="" /></td>
+			</tr>
+			<tr>
+				
+			</tr>
+		</table>
+	</form> 

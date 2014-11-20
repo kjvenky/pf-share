@@ -1,0 +1,759 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Real Estate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-select.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/styles.css">
+ 
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="js/bs/html5shiv.js"></script>
+<![endif]-->
+
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="ico/favicon.png">
+</head>
+
+<body>
+
+
+  <div class="topHeader" style="background:#34393D;">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span3 pull-right" style="color:#fff;padding-top:5px;">
+          <i class=" icon-phone right"></i>CALL US AT +1800 682 234
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Part 1: Wrap all page content here -->
+  <div id="wrap" >
+    <div class="container">
+      <div class="logo span4" style="padding: 18px 0px 10px;text-align:center;">
+        <img src="img/logo.png" width="150" alt="logo">
+        <br><span style="font-size:11px;color:#777;"> Apartments sales, Real Estate.!</span>
+      </div>
+    </div>  
+<!-- NAVBAR
+  ==================================================  -->
+  <div class="navbar-wrapper">
+    <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+    <div class="container">
+
+      <div class="navbar">
+        <div class="navbar-inner">
+          <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize.  -->
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse.  -->
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html"><i class="icon-home"></i></a></li>
+              <li class="dropdown" >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROPERTIES</a>
+                <ul class="dropdown-menu">
+                  <li><a href="home2.html">Home Example 2</a></li>
+                  <li><a href="home3.html">Home Example 3</a></li>
+                  <li><a href="property.html">Property Page</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">AGENTS</a>
+                <ul class="dropdown-menu">
+                  <li><a href="agent-profile.html">Agent Page</a></li>
+                  <li><a href="agents-list.html">List of Agents</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">BLOG</a>
+                <ul class="dropdown-menu">
+                  <li><a href="bloglist.html">Blog List</a></li>
+                  <li><a href="bloglist-large.html">Blog List Large Image</a></li>
+                  <li><a href="single.html">Single Post page</a></li>
+                  <li><a href="singlelarge.html">Single Post Large Image</a></li>
+                </ul>
+              </li>
+              <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</a>
+                <ul class="dropdown-menu">
+                  <li><a href="left-sidebar.html">Left Side Bar</a></li>
+                  <li><a href="right-sidebar.html">Right Side Bar</a></li>
+                  <li><a href="about-us.html">About us page</a></li>
+                  <li><a href="404.html">404 Error page</a></li>  
+                  <li><a href="faq.html">FAQ</a></li>  
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURES</a>
+                <ul class="dropdown-menu">
+                  <li><a href="calculator.html">Mortgauge Calculator</a></li>
+                  <li><a href="typo.html">Typography</a></li>
+                  <li><a href="columns.html">Columns</a></li>
+                  <li><a href="icons.html">Ready Icons to Use</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">CONTACT US</a></li>
+
+            </ul>
+          </div><!--/.nav-collapse  -->
+        </div><!-- /.navbar-inner  -->
+      </div><!-- /.navbar  -->
+
+    </div> <!-- /.container  -->
+  </div><!-- /.navbar-wrapper -->
+
+
+
+<!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide .hidden-phone">
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/home_slider/slide-01.jpg" alt="slide1">
+        <div class="container">
+          <div class="carousel-caption">
+            <div id="caption1" style="background:#000;font-size:16px;font-weight:bold;padding:10px 25px;color:#ff9933;width:180px;">Fully Responsive</div>
+            <div style="background:#fff;font-size:13px;line-height:20px;padding:20px 25px;">This template is appropriate for Real Estate Company, who need to do their business online via websites.</div>
+            <button class="button">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/home_slider/slide-02.jpg" alt="slide2">
+        <div class="container">
+          <div class="carousel-caption">
+            <div id="caption2" style="background:#000;font-size:16px;font-weight:bold;padding:10px 25px;color:#ff9933;width:180px;">3 Home pages</div>
+            <div style="background:#fff;font-size:13px;line-height:20px;padding:20px 25px;">This template is appropriate for Real Estate Company, who need to do their business online via websites.</div>
+            <button class="button">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/home_slider/slide-03.jpg" alt="slide3">
+        <div class="container">
+          <div class="carousel-caption">
+            <div id="caption3" style="background:#000;font-size:16px;font-weight:bold;padding:10px 25px;color:#ff9933;width:180px;">Welcome to Realty!</div>
+            <div style="background:#fff;font-size:20px;font-weight:bold;padding:10px 25px;color:#ff9933;text-align:right;">True Real Estate theme.</div>
+            <button class="button">BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+    <!-- Search box-->
+    <div class="container">
+     <div class="searchbox span5 offset1">
+      <div class="search-inner" style="padding:20px;">
+        <div class="tabbable"> <!-- Only required for left/right tabs -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab1" data-toggle="tab">BUY</a></li>
+            <li><a href="#tab2" data-toggle="tab">RENT</a></li>
+          </ul>
+          <div class="tab-content" style="margin-bottom:15px;border-bottom:1px dotted #333;padding-bottom:10px;overflow: visible;">
+            <div class="tab-pane active" id="tab1">
+              <div class="row-fluid">
+                <div class="inputTop">
+                  <div class="span5">
+                    <select  class="selectpicker span12">                      
+                     <option>Chennai</option>
+                   </select>
+                 </div>
+                 <div class="span7">
+                  <input type="text" name="name" id="name" class="formttfield" onfocus="if (this.value == 'Location ') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Location ';}" value="Location ">
+                </div>
+              </div>               
+            </div>
+
+            <div class="row-fluid">
+              <div class="inputTop">
+               <div class="span4">
+                <select class="selectpicker span12" multiple="" style="display: none;">
+                  <option>Type</option>
+                </select>
+              </div>
+              <div class="span4">
+               <select  class="selectpicker span12">                      
+                 <option>Bedrooms</option>
+               </select>
+             </div>
+             <div class="span4">
+               <select  class="selectpicker span12">                      
+                 <option>Bathrooms</option>
+               </select>
+             </div>
+           </div>               
+         </div>
+
+         <div class="row-fluid">
+          <div class="inputTop">
+            <div class="span3">
+              <select  class="selectpicker span12">                      
+               <option>Min</option>
+             </select>
+           </div>
+           <div class="span1" style="font-size:13px;font-weight:bold;color:#f1f1f1;text-align:center;vertical-align: middle;line-height: 35px;">
+             to  
+           </div>
+           <div class="span3">
+             <select  class="selectpicker span12">                      
+               <option>Max</option>
+             </select>
+           </div>
+         </div>               
+       </div>
+
+     </div>
+     <div class="tab-pane" id="tab2">
+      <div class="row-fluid">
+        <div class="inputTop">
+          <div class="span5">
+            <select  class="selectpicker span12">                      
+             <option>Chennai</option>
+           </select>
+         </div>
+         <div class="span7">
+          <input type="text" onfocus="if (this.value == 'Location ') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Location ';}" value="Location ">
+        </div>
+      </div>               
+    </div>
+
+    <div class="row-fluid">
+      <div class="inputTop">
+       <div class="span4">
+        <select class="selectpicker span12" multiple="" style="display: none;">
+          <option>Type</option>
+        </select>
+      </div>
+      <div class="span4">
+       <select  class="selectpicker span12">                      
+         <option>Bedrooms</option>
+       </select>
+     </div>
+     <div class="span4">
+       <select  class="selectpicker span12">                      
+         <option>Bathrooms</option>
+       </select>
+     </div>
+   </div>               
+ </div>
+
+ <div class="row-fluid">
+  <div class="inputTop">
+    <div class="span3">
+      <select  class="selectpicker span12">                      
+       <option>Min</option>
+     </select>
+   </div>
+   <div class="span1" style="font-size:13px;font-weight:bold;color:#f1f1f1;text-align:center;vertical-align: middle;line-height: 35px;">
+     to  
+   </div>
+   <div class="span3">
+     <select  class="selectpicker span12">                      
+       <option>Max</option>
+     </select>
+   </div>
+ </div>               
+</div>
+</div>
+
+</div>
+</div>
+
+<div style="background:#ff9933;border-radius:2px;padding:10px 18px;font-size:12px;color:#fff;font-weight:bold;float:left;margin:0px 20px 20px 0px;">
+  <i class="icon-search icon-white" style="margin-right:6px;"></i>FILTER NOW
+</div>
+<div  style="background:#71984b;border-radius:2px;padding:10px 18px;font-size:12px;color:#fff;font-weight:bold;float:left;text-align:center;">
+  <i class="icon-map-marker icon-white" style="margin-right:6px;"></i>MAP SEARCH</div>
+</div>
+</div>
+</div>
+
+<div class="sbottom">
+  <div class="container">
+    <!-- Latest listings-->
+    <div class="row-fluid">          
+      <div class="span2" style="margin-right">
+        <ul id="featured">
+          <li>
+            <button class="button3">RENT</button>
+          </li>
+          <li> 
+            <button class="button3">BUY</button>
+          </li>
+          <li>
+           <button class="button3">VIEW ALL</button>
+         </li>
+       </ul>
+
+     </div>
+     <div class="span3 latest">
+      <img src="img/latest1.jpg" alt="latest1"> 
+      <div 
+
+      class="imgcover">
+      <table>
+       <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+       <tr><td>Place  :</td><td>Nizam</td></tr>
+       <tr><td>Bedrooms  :</td><td>3</td></tr>
+       <tr><td>Bathrooms  :</td><td>3</td></tr>
+       <tr><td>Car Shed  :</td><td>Available</td></tr>
+     </table>
+   </div>
+   <div style="background:#f0f0f0;">
+    <div class="details">
+      <div><i class="icon-tag"></i> &#36; 630,000 </div>
+    </div>
+    <div class="view">VIEW DETAILS <i class="icon-plus-sign icon-white"></i></div>
+  </div>
+</div>        
+<div class="span3 latest">
+<img src="img/latest2.jpg" alt="latest1">
+<div 
+
+class="imgcover">
+<table>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>Place  :</td><td>Nizam</td></tr>
+  <tr><td>Bedrooms  :</td><td>3</td></tr>
+  <tr><td>Bathrooms  :</td><td>3</td></tr>
+  <tr><td>Car Shed  :</td><td>Available</td></tr>
+</table>
+</div>
+<div style="background:#f0f0f0;">
+  <div class="details">
+    <div><i class="icon-tag"></i> &#36; 630,000 </div>
+  </div>
+  <div class="view">VIEW DETAILS <i class="icon-plus-sign icon-white"></i></div>
+</div>
+</div>
+<div class=
+
+"span3 latest">
+<img src="img/latest3.jpg" alt="latest1">
+<div 
+
+class="imgcover">
+<table>
+  <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+  <tr><td>Place  :</td><td>Nizam</td></tr>
+  <tr><td>Bedrooms  :</td><td>3</td></tr>
+  <tr><td>Bathrooms  :</td><td>3</td></tr>
+  <tr><td>Car Shed  :</td><td>Available</td></tr>
+</table>
+</div>
+<div style="background:#f0f0f0;">
+  <div class="details">
+    <div><i class="icon-tag"></i> &#36; 630,000 </div>
+  </div>
+  <div class="view">VIEW DETAILS <i class="icon-plus-sign icon-white"></i></div>
+</div>
+</div> 
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+<div class="nbottom">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span9">
+        <div class="recent">
+          <div>
+            <h4>RECENT NEWS</h4>      
+          </div>
+
+          <div class="post">
+            <div class="post2">
+              <div style="float:left;width:13%;padding:10px 20px 10px 0px;"><img style="border-radius:2px;" src="img/latest1.jpg" alt="latest"></div>
+              <div >
+                <h4 style="padding:0px 0px 10px 0px;">Future of Real Estate</h4>      
+
+                Lorem ipsum dolor sit amet consectetur incididunt ut labore et dolore magna aliqua adipisicing elit seddo eiusmod tempor.
+
+                <a href="#">Read more &raquo;</a>
+              </div>
+            </div>
+            <div class="post2">
+              <div style="float:left;width:13%;padding:10px 20px 10px 0px;"><img style="border-radius:2px;" src="img/latest1.jpg" alt="latest"></div>
+              <div >
+                <h4 style="padding:0px 0px 10px 0px;">Future of Real Estate</h4>      
+
+                Lorem ipsum dolor sit amet consectetur incididunt ut labore et dolore magna aliqua adipisicing elit seddo eiusmod tempor.
+
+                <a href="#">Read more &raquo;</a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div style="margin-top:20px;">
+          <div class="span6 aboutus">
+            <h4 >ABOUT US</h4>
+            <p>This theme is a modern and stylish real estate theme. It's responsive and built mobile first, which means that it works on any screen size. Take a look around!
+              <br><br>
+              This theme is a modern and stylish real estate theme. It's responsive and built mobile first, which means that it works on any screen size. Take a look around!
+              <br>
+              <button class="button2">Meet our Agents</button>
+            </p>
+          </div>
+          <div class="span6 aboutus">
+            <h4 >FREQUENT QUESTIONS</h4>
+            <p>This theme is a modern and stylish real estate theme. It's responsive and built mobile first, which means that it works on any screen size. Take a look around!
+              <br><br>
+              This theme is a modern and stylish real estate theme. It's responsive and built mobile first, which means that it works on any screen size. Take a look around!
+              <br>
+              <button class="button2">See more</button>
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="span3">
+        <div class="sideheader" style="background-color:#f7f7f7;border-bottom:2px solid #ff9933;">
+          <h4 style="padding:10px 15px 7px 15px;font-size:12px;margin:5px 0px;">NEW LISTINGS</h4>
+
+        </div>
+        <br>
+        <div class="side_thumb" >
+          <img src="img/latest1.jpg" alt="latest1">
+          <div 
+
+          class="imgcover" style="opacity: 0;">
+          <table>
+           <tbody><tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+             <tr><td>Place  :</td><td>Nizam</td></tr>
+             <tr><td>Bedrooms  :</td><td>3</td></tr>
+             <tr><td>Bathrooms  :</td><td>3</td></tr>
+             <tr><td>Car Shed  :</td><td>Available</td></tr>
+           </tbody></table>
+         </div>
+         <div style="background:#f0f0f0;">
+          <div class="details">
+            <div><i class="icon-tag"></i> $ 630,000  </div>
+          </div>
+          <div class="view">VIEW DETAILS <i class="icon-plus-sign icon-white"></i></div>
+        </div>
+      </div>
+      <div class="side_thumb" >
+        <img src="img/latest2.jpg" alt="latest1">
+        <div 
+
+        class="imgcover" style="opacity: 0;">
+        <table>
+         <tbody><tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+           <tr><td>Place  :</td><td>Nizam</td></tr>
+           <tr><td>Bedrooms  :</td><td>3</td></tr>
+           <tr><td>Bathrooms  :</td><td>3</td></tr>
+           <tr><td>Car Shed  :</td><td>Available</td></tr>
+         </tbody></table>
+       </div>
+       <div style="background:#f0f0f0;">
+        <div class="details">
+          <div><i class="icon-tag"></i> $ 630,000 </div>
+        </div>
+        <div class="view">VIEW DETAILS <i class="icon-plus-sign icon-white"></i></div>
+      </div>
+    </div>
+    <div class="side_thumb" >
+      <img src="img/latest3.jpg" alt="latest1">
+      <div 
+
+      class="imgcover" style="opacity: 0;">
+      <table>
+       <tbody><tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+         <tr><td>Place  :</td><td>Nizam</td></tr>
+         <tr><td>Bedrooms  :</td><td>3</td></tr>
+         <tr><td>Bathrooms  :</td><td>3</td></tr>
+         <tr><td>Car Shed  :</td><td>Available</td></tr>
+       </tbody></table>
+     </div>
+     <div style="background:#f0f0f0;">
+      <div class="details">
+        <div><i class="icon-tag"></i> $ 630,000 </div>
+      </div>
+      <div class="view">VIEW DETAILS <i class="icon-plus-sign icon-white"></i></div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="nbottom">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span10 offset1" style="border-left:2px solid #ff9933;padding:15px 0px 15px 30px;background:#ffffff;font-size:13px;margin-top:15px;">
+        <div class="span9">
+          <h5>Avada is incredibly responsive, with a refreshingly clean design</h5>
+          <p>And it has some awesome features, premium sliders, unlimited colors, advanced theme options and so much more! <span> Read more &raquo;</span></p>
+        </div>
+        <div class="span3">
+          <button class="button">Read More <i class="icon-forward icon-white"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /.carousel -->
+</div>
+
+<div  style="background:#fff;min-height:280px;border-top:1px solid #ddd;margin-top: 30px;">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span8 offset2">
+        <div style="margin:0 auto;"><img src="img/shadow1.png" alt="shadow"></div>    
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span8" style="font-size:13px;">
+        <h4 style="padding: 10px 15px 7px 15px;font-size: 14px;margin: 5px 0px;font-weight: bold;color: #000;">Meet out agents</h4>
+        <div class="span5" >
+          <div style="float:left;width:50%;padding:10px 20px 10px 0px;"><img style="border-radius:2px;" src="img/latest1.jpg" alt="latest"></div>
+          <p>This theme is a modern and stylish real estate theme. It's responsive and built mobile first
+          </p>
+        </div>
+        <div class="span5">
+          <div style="float:left;width:50%;padding:10px 20px 10px 0px;margin-left:-10px;"><img style="border-radius:2px;" src="img/latest1.jpg" alt="latest"></div>
+          <p>This theme is a modern and stylish real estate theme. It's responsive and built mobile first
+          </p>
+        </div>
+      </div>      
+      <div class="span4">
+       <h4 style="padding: 10px 15px 7px 15px;font-size: 14px;margin: 5px 0px;font-weight: bold;color: #000;">Twitter</h4>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!-- Prefooter starts here -->
+<div class="" id="preFooter">
+  <div class="container" >
+    <div class="row-fluid">
+     <div class="span3">
+      <h5>THEME NAME</h5>
+      <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis.</p>
+    </div>
+    <div class="span3">
+      <h5>CONTACT US</h5> 
+      <div class="row-fluid">
+        <div class="span12">
+          <table class="addresstable">
+            <tr>
+              <td>
+                <span><i class="icon-map-marker right-more"></i>Address</span>
+              </td>
+              <td>1900 Pico Blvd<br>
+                Santa Monica, CA 90405, United States         
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span><i class="icon-phone right-more"></i>Phone</span>
+              </td>
+              <td>+91 98409 42024       
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span><i class="icon-envelope right-more"></i>Email</span>
+              </td>
+              <td>admin@realty.com      
+              </td>
+            </tr>
+          </table>
+        </div> 
+      </div>
+    </div>
+    <div class="span3 social1">
+     <h5>WE ARE SOCIAL</h5>
+     <div class="social">
+      <a target="_blank" href="#" class="rss"><img src="img/social/rss.png" title="Follow us on RSS" alt=""></a>                           
+      <a target="_blank" href="#" class="twitter"><img src="img/social/twitter.png" title="Follow us on Twitter" alt=""></a>
+      <a target="_blank" href="#" class="facebook"><img src="img/social/facebook.png" title="Connect on Facebook" alt=""></a>
+      <a target="_blank" href="#" class="youtube"><img src="img/social/youtube.png" title="Watch on YouTube" alt=""></a>
+      <a target="_blank" href="#" class="linkedin"><img src="img/social/linkedin.png" title="Connect on LinkedIn" alt=""></a>
+      <a target="_blank" href="#" class="googleplus"><img src="img/social/googleplus.png" title="View Google+ profile" alt=""></a>
+      <h5 class="second">SIGNUP FOR OUR NEWSLETTER</h5>
+      <input type="text"/>
+    </div>
+  </div>
+  <div class="span3">
+    <div id="spanDiv">
+      <div class="footer-item">
+        <h5>QUICK LINKS</h5>
+        <div class="menu-footer">
+          <ul id="menu-footer" class="menu">
+            <li class="menu-item"><a href="#">Buying/Selling</a>
+              <ul class="sub-menu">
+                <li><a href="#">Property Search</a></li>
+                <li><a href="#">Inspection Times</a></li>
+                <li><a href="#">Forthcoming Auctions</a></li>
+                <li><a href="#">Property Alerts</a></li>
+                <li><a href="#">Property Alerts</a></li>
+                <li><a href="#">Forthcoming Auctions</a></li>
+                <li><a href="#">Property Alerts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="footer-item">
+        <h5>&nbsp;</h5>
+        <div class="menu-footer">
+          <ul class="menu">
+            <li class="menu-item"><a href="#">Renting</a>
+              <ul class="sub-menu">
+                <li><a href="#">Propertie Search</a></li>
+                <li><a href="#">Inspection Times</a></li>
+                <li><a href="#">Rental Application Forms</a></li>
+                <li><a href="#">Rental Appraisal</a></li>
+                <li><a href="#">Property Alerts</a></li>
+                <li><a href="#">Forthcoming Auctions</a></li>
+                <li><a href="#">Forthcoming Auctions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div> <!-- End of prefooter -->
+
+<div class="footer">
+  <div class="container">
+    <div class="row-fluid">
+      <div id="footerMenu">
+        <div class="menu-container">
+          <ul class="menu">
+            <li class="menu-item"><a href="#">About Us</a></li>
+            <li class="menu-item"><a href="#">All Properties</a></li>
+            <li class="menu-item"><a href="#">Blog</a></li>
+            <li class="menu-item"><a href="#">Find Properties</a></li>
+            <li class="menu-item"><a href="#">Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="footerText">
+        Theme by &copy; 2013 <a href="#">Kjvenky, Inc.</a>     </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Le javascript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/animateText.js"></script>
+  <script src="js/bs/bootstrap-transition.js"></script>
+  <script src="js/bs/bootstrap-alert.js"></script>
+  <script src="js/bs/bootstrap-modal.js"></script>
+  <script src="js/bs/bootstrap-dropdown.js"></script>
+  <script src="js/bs/bootstrap-scrollspy.js"></script>
+  <script src="js/bs/bootstrap-tab.js"></script>
+  <script src="js/bs/bootstrap-tooltip.js"></script>
+  <script src="js/bs/bootstrap-popover.js"></script>
+  <script src="js/bs/bootstrap-button.js"></script>
+  <script src="js/bs/bootstrap-collapse.js"></script>
+  <script src="js/bs/bootstrap-carousel.js"></script>
+  <script src="js/bs/bootstrap-typeahead.js"></script>
+  <script src="js/bs/bootstrap-select.js"></script>
+  <script>
+  !function ($) {
+    $(function(){
+// carousel demo
+$('#myCarousel').carousel()
+})
+  }(window.jQuery)
+
+  $(function() {        
+    $("div.imgcover").hover(function () {       
+      $(this).stop().animate({
+        opacity: 0.85
+      }, "slow");
+    },function () {
+     $(this).stop().animate({
+      opacity: 0
+    }, "slow");
+   });
+  });
+  </script>
+  <script type="text/javascript">
+  var textObjects = [
+  {
+    offset: 0,
+    duration: 2000,
+    animation: 'leftToRight'
+  },
+  {
+    offset: 1000,
+    duration: 2000,
+    animation: 'rightToLeft'
+  },
+  {
+    offset: 2000,
+    duration: 2000,
+    animation: 'topToBottom'
+  }
+  ],
+  options = {
+    repeat: 5
+  },
+  animations = {
+    topToBottom: {
+      positions: {
+        start: {
+          bottom: '100%',
+          left: '50%',
+        },
+        1:  {
+          bottom: '0%'
+        }
+      }
+    }
+  };
+  $("#example").animateText(textObjects, options, animations);
+  </script>
+  <script src="js/bs/holder.js"></script>
+  <script type="text/javascript">
+  $('.navbar .dropdown').hover(function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+  }, function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp()
+  });
+
+  $('.selectpicker').selectpicker();
+  </script>
+
+</body>
+</html>

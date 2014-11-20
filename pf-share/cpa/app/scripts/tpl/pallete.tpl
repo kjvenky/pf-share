@@ -1,0 +1,1 @@
+<div id="#palleteC">panelComponent</div>

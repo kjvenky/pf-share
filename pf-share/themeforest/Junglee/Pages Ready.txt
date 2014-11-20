@@ -1,0 +1,19 @@
+Pages Ready
+
+- Contact us page
+- Mortgage Calculator page
+- Typo page
+- columns page
+- icon page
+- FAQ page
+- 404 page
+- about-us page
+- Right side page
+- left side page
+- bloglist
+- bloglist-large
+- single
+- single large
+- list of agents page
+- agent profile page
+- 

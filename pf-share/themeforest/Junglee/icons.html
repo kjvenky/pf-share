@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Real Estate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Le styles -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-select.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="js/bs/html5shiv.js"></script>
+<![endif]-->
+
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="ico/favicon.png">
+</head>
+
+<body>
+  <div class="topHeader">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span3 pull-right callus">
+         <i class="icon-phone right"></i>  CALL US AT +1800 682 234
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <!-- Part 1: Wrap all page content here -->
+ <div id="wrap" >
+  <div class="container">
+    <div class="logo span4">
+      <img src="img/logo.png" alt="logo">
+      <br><span style="font-size:11px;color:#777;"> Apartments sales, Real Estate.!</span>
+    </div>
+  </div>  
+
+
+<!-- NAVBAR
+  ==================================================  -->
+  <div class="navbar-wrapper">
+    <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+    <div class="container">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize.  -->
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse.  -->
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html"><i class="icon-home"></i></a></li>
+              <li class="dropdown" >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROPERTIES</a>
+                <ul class="dropdown-menu">
+                  <li><a href="home2.html">Home Example 2</a></li>
+                  <li><a href="home3.html">Home Example 3</a></li>
+                  <li><a href="property.html">Property Page</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">AGENTS</a>
+                <ul class="dropdown-menu">
+                  <li><a href="agent-profile.html">Agent Page</a></li>
+                  <li><a href="agents-list.html">List of Agents</a></li>
+                </ul>
+              </li>
+              <li class="dropdown" >
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">BLOG</a>
+                <ul class="dropdown-menu">
+                  <li><a href="bloglist.html">Blog List</a></li>
+                  <li><a href="bloglist-large.html">Blog List Large Image</a></li>
+                  <li><a href="single.html">Single Post page</a></li>
+                  <li><a href="singlelarge.html">Single Post Large Image</a></li>
+                </ul>
+              </li>
+              <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</a>
+                <ul class="dropdown-menu">
+                  <li><a href="left-sidebar.html">Left Side Bar</a></li>
+                  <li><a href="right-sidebar.html">Right Side Bar</a></li>
+                  <li><a href="about-us.html">About us page</a></li>
+                  <li><a href="404.html">404 Error page</a></li>  
+                  <li><a href="faq.html">FAQ</a></li>  
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">FEATURES</a>
+                <ul class="dropdown-menu">
+                  <li><a href="calculator.html">Mortgauge Calculator</a></li>
+                  <li><a href="typo.html">Typography</a></li>
+                  <li><a href="columns.html">Columns</a></li>
+                  <li><a href="icons.html">Ready Icons to Use</a></li>
+                </ul>
+              </li>
+              <li class="active"><a href="contact.html">CONTACT US</a></li>
+            </ul>
+          </div><!--/.nav-collapse  -->
+        </div><!-- /.navbar-inner  -->
+      </div><!-- /.navbar  -->
+    </div> <!-- /.container  -->
+  </div><!-- /.navbar-wrapper -->
+
+
+  <div class="nbottom">
+    <div class="container">
+      <!-- Top Search bar -->
+      <div class="row-fluid">
+        <div class="span12 searchbox1">
+          <div class="text">FIND YOUR HOME FROM OUR HANDPICKED LISTINGS . <span style="color:#fff;">GET INSTANT DETAILS , DEALS AND MUCH MORE ...</span></div>
+          <div class="row-fluid search-inner">
+            <div class="span7 inputTop">
+              <input type="text" onfocus="if (this.value == 'Enter State, City, Zip ') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Enter State, City, Zip ';}" value="Enter State, City, Zip ">
+            </div>
+            <div class="span5">
+              <div class="searchbutton">
+                <i class="icon-search icon-white right"></i>SEARCH
+              </div>                       
+              <div class="advsearch">
+                <i class="icon-home icon-white right"></i>ADVANCED SEARCH
+              </div>
+              <div class="advsearch">
+                <i class="icon-home icon-white"></i>
+              </div>
+            </div>
+          </div>               
+        </div>
+      </div> <!-- Top Search bar ending -->
+    </div><!-- /.carousel -->
+  </div>
+
+  <div class="main">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="title"><h3>INTEGRATED ICONS SUPPORT FROM <a href="http://fortawesome.github.io/Font-Awesome/#icons-new">FONT AWESOME</a></h3></div>
+        <div class="row-fluid iconslist">
+          <div class="span2">
+            <ul class="icons">
+              <li><i class="icon-adjust"></i> icon-adjust</li>
+              <li><i class="icon-asterisk"></i> icon-asterisk</li>
+              <li><i class="icon-ban-circle"></i> icon-ban-circle</li>
+              <li><i class="icon-bar-chart"></i> icon-bar-chart</li>
+              <li><i class="icon-barcode"></i> icon-barcode</li>
+              <li><i class="icon-beaker"></i> icon-beaker</li>
+              <li><i class="icon-bell"></i> icon-bell</li>
+              <li><i class="icon-bolt"></i> icon-bolt</li>
+              <li><i class="icon-book"></i> icon-book</li>
+              <li><i class="icon-bookmark"></i> icon-bookmark</li>
+              <li><i class="icon-bookmark-empty"></i> icon-bookmark-empty</li>
+              <li><i class="icon-briefcase"></i> icon-briefcase</li>
+              <li><i class="icon-bullhorn"></i> icon-bullhorn</li>
+              <li><i class="icon-calendar"></i> icon-calendar</li>
+              <li><i class="icon-camera"></i> icon-camera</li>
+              <li><i class="icon-camera-retro"></i> icon-camera-retro</li>
+              <li><i class="icon-certificate"></i> icon-certificate</li>
+              <li><i class="icon-check"></i> icon-check</li>
+              <li><i class="icon-check-empty"></i> icon-check-empty</li>
+              <li><i class="icon-cloud"></i> icon-cloud</li>
+              <li><i class="icon-magnet"></i> icon-magnet</li>
+              <li><i class="icon-map-marker"></i> icon-map-marker</li>
+            </ul>
+          </div>
+
+          <div class="span2">
+            <ul class="icons">
+              <li><i class="icon-signal"></i> icon-signal</li>
+              <li><i class="icon-signin"></i> icon-signin</li>
+              <li><i class="icon-signout"></i> icon-signout</li>
+              <li><i class="icon-sitemap"></i> icon-sitemap</li>
+              <li><i class="icon-sort"></i> icon-sort</li>
+              <li><i class="icon-sort-down"></i> icon-sort-down</li>
+              <li><i class="icon-sort-up"></i> icon-sort-up</li>
+              <li><i class="icon-star"></i> icon-star</li>
+              <li><i class="icon-star-empty"></i> icon-star-empty</li>
+              <li><i class="icon-star-half"></i> icon-star-half</li>
+              <li><i class="icon-tag"></i> icon-tag</li>
+              <li><i class="icon-tags"></i> icon-tags</li>
+              <li><i class="icon-tasks"></i> icon-tasks</li>
+              <li><i class="icon-thumbs-down"></i> icon-thumbs-down</li>
+              <li><i class="icon-thumbs-up"></i> icon-thumbs-up</li>
+              <li><i class="icon-time"></i> icon-time</li>
+              <li><i class="icon-tint"></i> icon-tint</li>
+              <li><i class="icon-trash"></i> icon-trash</li>
+              <li><i class="icon-trophy"></i> icon-trophy</li>
+              <li><i class="icon-truck"></i> icon-truck</li>
+              <li><i class="icon-upload"></i> icon-upload</li>
+              <li><i class="icon-upload-alt"></i> icon-upload-alt</li> 
+            </ul>
+          </div>
+          <div class="span2">
+            <ul class="icons">
+              <li><i class="icon-random"></i> icon-random</li>
+              <li><i class="icon-refresh"></i> icon-refresh</li>
+              <li><i class="icon-remove"></i> icon-remove</li>
+              <li><i class="icon-remove-circle"></i> icon-remove-circle</li>
+              <li><i class="icon-remove-sign"></i> icon-remove-sign</li>
+              <li><i class="icon-reorder"></i> icon-reorder</li>
+              <li><i class="icon-resize-horizontal"></i> icon-resize-horizontal</li>
+              <li><i class="icon-resize-vertical"></i> icon-resize-vertical</li>
+              <li><i class="icon-retweet"></i> icon-retweet</li>
+              <li><i class="icon-road"></i> icon-road</li>
+              <li><i class="icon-rss"></i> icon-rss</li>
+              <li><i class="icon-screenshot"></i> icon-screenshot</li>
+              <li><i class="icon-search"></i> icon-search</li>
+              <li><i class="icon-share"></i> icon-share</li>
+              <li><i class="icon-share-alt"></i> icon-share-alt</li>
+              <li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
+              <li><i class="icon-user"></i> icon-user</li>
+              <li><i class="icon-user-md"></i> icon-user-md</li>
+              <li><i class="icon-volume-off"></i> icon-volume-off</li>
+              <li><i class="icon-volume-down"></i> icon-volume-down</li>
+              <li><i class="icon-minus"></i> icon-minus</li>
+              <li><i class="icon-minus-sign"></i> icon-minus-sign</li>
+            </ul>
+          </div>
+          <div class="span2">
+            <ul class="icons">
+              <li><i class="icon-cog"></i> icon-cog</li>
+              <li><i class="icon-cogs"></i> icon-cogs</li>
+              <li><i class="icon-comment"></i> icon-comment</li>
+              <li><i class="icon-comment-alt"></i> icon-comment-alt</li>
+              <li><i class="icon-comments"></i> icon-comments</li>
+              <li><i class="icon-comments-alt"></i> icon-comments-alt</li>
+              <li><i class="icon-credit-card"></i> icon-credit-card</li>
+              <li><i class="icon-dashboard"></i> icon-dashboard</li>
+              <li><i class="icon-download"></i> icon-download</li>
+              <li><i class="icon-download-alt"></i> icon-download-alt</li>
+              <li><i class="icon-edit"></i> icon-edit</li>
+              <li><i class="icon-envelope"></i> icon-envelope</li>
+              <li><i class="icon-envelope-alt"></i> icon-envelope-alt</li>
+              <li><i class="icon-inbox"></i> icon-inbox</li>
+              <li><i class="icon-info-sign"></i> icon-info-sign</li>
+              <li><i class="icon-key"></i> icon-key</li>
+              <li><i class="icon-leaf"></i> icon-leaf</li>
+              <li><i class="icon-legal"></i> icon-legal</li>
+              <li><i class="icon-lemon"></i> icon-lemon</li>
+              <li><i class="icon-lock"></i> icon-lock</li>
+              <li><i class="icon-unlock"></i> icon-unlock</li>
+              <li><i class="icon-magic"></i> icon-magic</li>
+            </ul>
+          </div>
+          <div class="span2">
+            <ul class="icons">
+              <li><i class="icon-exclamation-sign"></i> icon-exclamation-sign</li>
+              <li><i class="icon-external-link"></i> icon-external-link</li>
+              <li><i class="icon-eye-close"></i> icon-eye-close</li>
+              <li><i class="icon-eye-open"></i> icon-eye-open</li>
+              <li><i class="icon-facetime-video"></i> icon-facetime-video</li>
+              <li><i class="icon-film"></i> icon-film</li>
+              <li><i class="icon-filter"></i> icon-filter</li>
+              <li><i class="icon-fire"></i> icon-fire</li>
+              <li><i class="icon-flag"></i> icon-flag</li>
+              <li><i class="icon-folder-close"></i> icon-folder-close</li>
+              <li><i class="icon-folder-open"></i> icon-folder-open</li>
+              <li><i class="icon-gift"></i> icon-gift</li>
+              <li><i class="icon-glass"></i> icon-glass</li>
+              <li><i class="icon-globe"></i> icon-globe</li>
+              <li><i class="icon-group"></i> icon-group</li>
+              <li><i class="icon-hdd"></i> icon-hdd</li>
+              <li><i class="icon-headphones"></i> icon-headphones</li>
+              <li><i class="icon-heart"></i> icon-heart</li>
+              <li><i class="icon-heart-empty"></i> icon-heart-empty</li>
+              <li><i class="icon-home"></i> icon-home</li>
+              <li><i class="icon-umbrella"></i> icon-umbrella</li>
+            </ul>
+          </div>
+          <div class="span2">
+            <ul class="icons">
+              <li><i class="icon-money"></i> icon-money</li>
+              <li><i class="icon-move"></i> icon-move</li>
+              <li><i class="icon-music"></i> icon-music</li>
+              <li><i class="icon-off"></i> icon-off</li>
+              <li><i class="icon-ok"></i> icon-ok</li>
+              <li><i class="icon-ok-circle"></i> icon-ok-circle</li>
+              <li><i class="icon-ok-sign"></i> icon-ok-sign</li>
+              <li><i class="icon-pencil"></i> icon-pencil</li>
+              <li><i class="icon-picture"></i> icon-picture</li>
+              <li><i class="icon-plane"></i> icon-plane</li>
+              <li><i class="icon-plus"></i> icon-plus</li>
+              <li><i class="icon-plus-sign"></i> icon-plus-sign</li>
+              <li><i class="icon-print"></i> icon-print</li>
+              <li><i class="icon-pushpin"></i> icon-pushpin</li>
+              <li><i class="icon-qrcode"></i> icon-qrcode</li>
+              <li><i class="icon-question-sign"></i> icon-question-sign</li>
+              <li><i class="icon-volume-up"></i> icon-volume-up</li>
+              <li><i class="icon-warning-sign"></i> icon-warning-sign</li>
+              <li><i class="icon-wrench"></i> icon-wrench</li>
+              <li><i class="icon-zoom-in"></i> icon-zoom-in</li>
+              <li><i class="icon-zoom-out"></i> icon-zoom-out</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Prefooter starts here -->
+<div class="" id="preFooter">
+  <div class="container" >
+    <div class="row-fluid">
+     <div class="span3">
+      <h5>THEME NAME</h5>
+      <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis.</p>
+    </div>
+    <div class="span3">
+      <h5>CONTACT US</h5> 
+      <div class="row-fluid">
+        <div class="span12">
+          <table class="addresstable">
+            <tr>
+              <td>
+                <span><i class="icon-map-marker right-more"></i>Address</span>
+              </td>
+              <td>1900 Pico Blvd<br>
+                Santa Monica, CA 90405, United States         
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span><i class="icon-phone right-more"></i>Phone</span>
+              </td>
+              <td>+91 98409 42024       
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span><i class="icon-envelope right-more"></i>Email</span>
+              </td>
+              <td>admin@realty.com      
+              </td>
+            </tr>
+          </table>
+        </div> 
+      </div>
+    </div>
+    <div class="span3 social1">
+     <h5>WE ARE SOCIAL</h5>
+     <div class="social">
+      <a target="_blank" href="#" class="rss"><img src="img/social/rss.png" title="Follow us on RSS" alt=""></a>                           
+      <a target="_blank" href="#" class="twitter"><img src="img/social/twitter.png" title="Follow us on Twitter" alt=""></a>
+      <a target="_blank" href="#" class="facebook"><img src="img/social/facebook.png" title="Connect on Facebook" alt=""></a>
+      <a target="_blank" href="#" class="youtube"><img src="img/social/youtube.png" title="Watch on YouTube" alt=""></a>
+      <a target="_blank" href="#" class="linkedin"><img src="img/social/linkedin.png" title="Connect on LinkedIn" alt=""></a>
+      <a target="_blank" href="#" class="googleplus"><img src="img/social/googleplus.png" title="View Google+ profile" alt=""></a>
+      <h5 class="second">SIGNUP FOR OUR NEWSLETTER</h5>
+      <input type="text"/>
+    </div>
+  </div>
+  <div class="span3">
+    <div id="spanDiv">
+      <div class="footer-item">
+        <h5>QUICK LINKS</h5>
+        <div class="menu-footer">
+          <ul id="menu-footer" class="menu">
+            <li class="menu-item"><a href="#">Buying/Selling</a>
+              <ul class="sub-menu">
+                <li><a href="#">Property Search</a></li>
+                <li><a href="#">Inspection Times</a></li>
+                <li><a href="#">Forthcoming Auctions</a></li>
+                <li><a href="#">Property Alerts</a></li>
+                <li><a href="#">Property Alerts</a></li>
+                <li><a href="#">Forthcoming Auctions</a></li>
+                <li><a href="#">Property Alerts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="footer-item">
+        <h5>&nbsp;</h5>
+        <div class="menu-footer">
+          <ul class="menu">
+            <li class="menu-item"><a href="#">Renting</a>
+              <ul class="sub-menu">
+                <li><a href="#">Propertie Search</a></li>
+                <li><a href="#">Inspection Times</a></li>
+                <li><a href="#">Rental Application Forms</a></li>
+                <li><a href="#">Rental Appraisal</a></li>
+                <li><a href="#">Property Alerts</a></li>
+                <li><a href="#">Forthcoming Auctions</a></li>
+                <li><a href="#">Forthcoming Auctions</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div> <!-- End of prefooter -->
+
+<div class="footer">
+  <div class="container">
+    <div class="row-fluid">
+      <div id="footerMenu">
+        <div class="menu-container">
+          <ul class="menu">
+            <li class="menu-item"><a href="#">About Us</a></li>
+            <li class="menu-item"><a href="#">All Properties</a></li>
+            <li class="menu-item"><a href="#">Blog</a></li>
+            <li class="menu-item"><a href="#">Find Properties</a></li>
+            <li class="menu-item"><a href="#">Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="footerText">
+        Theme by &copy; 2013 <a href="#">Kjvenky, Inc.</a>     </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Le javascript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/animateText.js"></script>
+  <script src="js/bs/bootstrap-transition.js"></script>
+  <script src="js/bs/bootstrap-alert.js"></script>
+  <script src="js/bs/bootstrap-modal.js"></script>
+  <script src="js/bs/bootstrap-dropdown.js"></script>
+  <script src="js/bs/bootstrap-scrollspy.js"></script>
+  <script src="js/bs/bootstrap-tab.js"></script>
+  <script src="js/bs/bootstrap-tooltip.js"></script>
+  <script src="js/bs/bootstrap-popover.js"></script>
+  <script src="js/bs/bootstrap-button.js"></script>
+  <script src="js/bs/bootstrap-collapse.js"></script>
+  <script src="js/bs/bootstrap-carousel.js"></script>
+  <script src="js/bs/bootstrap-typeahead.js"></script>
+  <script src="js/bs/bootstrap-select.js"></script>
+  <script>
+  !function ($) {
+    $(function(){
+// carousel demo
+$('#myCarousel').carousel()
+})
+  }(window.jQuery)
+
+  $(function() {        
+    $("div.imgcover").hover(function () {       
+      $(this).stop().animate({
+        opacity: 0.85
+      }, "slow");
+    },function () {
+     $(this).stop().animate({
+      opacity: 0
+    }, "slow");
+   });
+  });
+  </script>
+  <script type="text/javascript">
+  var textObjects = [
+  {
+    offset: 0,
+    duration: 2000,
+    animation: 'leftToRight'
+  },
+  {
+    offset: 1000,
+    duration: 2000,
+    animation: 'rightToLeft'
+  },
+  {
+    offset: 2000,
+    duration: 2000,
+    animation: 'topToBottom'
+  }
+  ],
+  options = {
+    repeat: 5
+  },
+  animations = {
+    topToBottom: {
+      positions: {
+        start: {
+          bottom: '100%',
+          left: '50%',
+        },
+        1:  {
+          bottom: '0%'
+        }
+      }
+    }
+  };
+  $("#example").animateText(textObjects, options, animations);
+  </script>
+  <script src="js/bs/holder.js"></script>
+  <script type="text/javascript">
+  $('.navbar .dropdown').hover(function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+  }, function() {
+    $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp()
+  });
+
+  $('.selectpicker').selectpicker();
+  </script>
+
+</body>
+</html>

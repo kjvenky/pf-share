@@ -1,0 +1,36 @@
+Notes:
+
+1. I need a new name for the theme
+2. Create a favicon 
+3. Work on the Prefooter format
+4.  
+
+1. 
+
+Learning:
+1. Bootstrap footer needs to be made sticky using tyhe template in the bootstrap
+2. 
+
+Types of themes
+- Magazine themes
+- Blog Themes
+- Portfolio themes
+- Themes for Photographers
+- Onepage themes
+- RealEstate themes
+- Listing themes
+- Even posting themes
+- Ecommerce themes
+
+Good fonts noted:
+OpenSansRegular;
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+    $('.nav li.dropdown').hover(function() {
+        $(this).addClass('open');
+    }, function() {
+        $(this).removeClass('open');
+    });
+});
+    </script>

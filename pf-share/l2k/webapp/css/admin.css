@@ -1,0 +1,133 @@
+html,body {
+	overflow-x: visible;
+	background:#D4D4D4;
+	overflow-y:visible;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+.bar{
+	fill: #164E16;
+}
+
+.bar:hover{
+	fill: #2AA539;
+}
+
+.bar-negitive{
+	fill: #A52A2A;
+}
+
+.bar-negitive:hover{
+	fill: #D65353;
+}
+
+.amenubar{
+	width:100px;
+	position: fixed !important;
+	left:0px;
+	background:#222;
+	height:100%;
+	font-family:'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#A7AFBD;
+	position:relative;
+	z-index: 999;
+}
+
+.amenubar>ul{
+	list-style:none;
+	padding:0px;
+	text-align:center;
+}
+
+.amenubar>ul>li{
+	padding:15px 10px 20px;
+	border-bottom:1px solid #111;
+	border-top:1px solid #444;
+}
+
+.amenubar > ul > li > a > i{
+	display: block;
+	font-size: 19px;
+	margin: 8px 0;
+}
+
+.amenubar > ul > li:hover{
+	color:#f7f7f7;
+	background:#2A2A2B;
+}
+
+.amenubar > ul > li > a{
+	color:white;
+	text-decoration:none;
+}
+
+#wrap{
+	margin-top:50px;
+}
+
+.content{
+	background:#ddd;
+	margin: 0px 0px 0px 100px;
+	padding:20px 3%;
+}
+
+#databack{
+	background: #f7f7f7;
+	padding: 20px 3%;
+}
+.submenu{
+	position: absolute;
+	background: #333;
+	left: 100%;
+	margin-top:-65px;
+}
+
+.amenubar > ul > li > ul {
+	padding:0px;
+	border-bottom:1px solid #111;
+	border-top:1px solid #444;
+	list-style: none;
+}
+
+.amenubar > ul > li > ul {	
+	color:inherit;
+}
+
+.amenubar > ul > li > ul > li{	
+	border-bottom:1px solid #111;
+	border-top:1px solid #444;
+}
+
+.amenubar > ul > li > ul > li > a{	
+	color: #f7f7f7;
+	display: block;
+	padding: 10px 10px 15px;
+	width: 200px;
+	text-decoration: none;
+}
+
+/* Overwrite bootstrap defaults */
+.table{
+	table-layout: fixed;
+	word-wrap: break-word;
+}
+
+.table > thead > tr > th {
+text-transform: capitalize;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+	padding: 8px 4px;
+}
+
+.btn{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top:2px;
+}
+
+.well{
+	background: linear-gradient(to bottom, #FFF 0%,#EDEDED 100%);
+}

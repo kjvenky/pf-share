@@ -1,0 +1,15 @@
+Important links for reference:
+
+1. http://www.packtpub.com/article/paths-and-curves-in-raphael-js-vector-graphics
+2. http://daeken.github.io/JsDataFlowEditor/Examples/Alyn/
+3. 
+
+Todolist
+1. Add model to canvas by drag
+2. Delete the element on canvas
+3. Disable all the regular key functions
+4. Prevent from overlap
+5. Prevent from moving outsite
+6. Connect
+7. Disconnect
+8. Initialize a canvas with objects

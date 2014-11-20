@@ -1,0 +1,524 @@
+/* Body CSS */
+html,body{
+  font-family: Montserrat;
+  background: #EEE;
+}
+
+body{
+    overflow-y: scroll; 
+}
+
+h1, h2, h3, h4 {
+  font-family: Montserrat;
+}
+
+.btn{
+  border-radius: 0px;
+}
+
+#content-info{
+  /*padding: 30px 0px 60px;*/
+  /*margin-bottom: 30px;*/
+  border-bottom: 1px solid #ddd;
+}
+
+#content-cards{
+  padding: 0px 0px 60px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+#content-cards{
+  padding: 0px 0px 30px;
+}
+
+.content-card{
+  padding:30px 0px;
+}
+
+.content-card:hover{
+  background:#3477bb;
+  color: white;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.content-card:hover .btn-primary{
+  background:white;
+  color: black;
+}
+
+/* Topbar */
+
+.topbar {
+  background: #3477bb;
+}
+
+.topcontent{
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.topcontent h1.top-title{
+  font-size: 56px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.topcontent-small {
+  padding-top: 50px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.topcontent-small h1.top-title{
+  font-size: 36px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.topcontent-small #search-box{
+  margin-top: 35px;
+  margin-bottom: 70px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* Search CSS */
+
+#search-box {
+  padding: 0;
+  border: 10px solid rgba(255,255,255,0.5);
+  margin-top: 75px;
+  margin-bottom: 150px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#search-box .col-sm-4,
+.col-sm-6,
+.col-sm-11, .col-sm-12 {
+  padding: 0;
+}
+
+#search-box .col-sm-6 {
+  border-left: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.5);
+}
+
+#search-box input {
+  border: 0px;
+  border-radius: 0px;
+  height: 100%;
+  width: 100%;
+  font-size: 13px;
+  padding: 17px 25px;
+}
+
+.info-details{
+  text-align:right;
+  font-size:12px;
+  padding:0px 10px;
+  float:right;
+}
+
+.search-button {
+  border-radius: 0px;
+  padding: 15px 20px;
+}
+
+/* Options */
+.trip{
+  padding: 0px;
+}
+
+.trip p{
+  margin:0;
+  padding-bottom: 3px;
+}
+
+.trip-cards h2{
+  padding: 20px;
+  text-align: center;
+}
+
+.trip-cards .trip-info{
+  padding:20px 0px 0px;
+  font-size:16px;
+}
+
+.trip-card{
+  padding: 15px;
+  background: #eee;x
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  border:1px solid #EEE6E6 !important;
+  background: #FFF;
+  border-radius: 3px;
+}
+
+.trip-card div{
+  float: left;
+}
+
+.car-type{
+  padding-top: 10px;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.coupon{
+  text-align:center;
+  padding: 5px;
+  color: white;
+  padding-top:5px;
+  background: #C92525;
+  height: 60px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.trip-card .fare{
+  width: 100%;
+  padding: 15px 15px;
+  font-size: 18px;
+  background: #4CAE4C;
+  color:white;
+  height: 60px;
+  border-radius: 3px;
+}
+  
+
+.coupon-dot{
+  height:10px;
+  width:10px;
+  background:white;
+  border-radius:10px;
+  position: absolute;
+  top: 20px;
+  left:-10;
+}
+
+.input-from, .input-to{
+  border
+}
+
+img.logo{
+  margin-top: 7px;
+}
+
+#sort{
+  float:right;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.arrow-rotate{
+  -webkit-transform: rotate(-180deg);
+  transform:rotate(-180deg);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.disclaimer{
+  font-size:9px;
+  line-height: 15px;
+  padding-top:20px;
+  color:#666;
+  margin-left: -5%;
+}
+
+.tooltip-inner {
+max-width: 200px;
+padding: 11px 26px;
+ border-radius: 1px; 
+}
+
+@media screen and (max-width: 768px) {
+
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+  {
+    padding: 0px 15px;
+  }
+
+  html{
+    height: 100%;
+   }
+
+  body{
+    height: 100%;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    background: #3477bb;
+  }
+
+  .col-s,
+  .content{
+    height:100%;
+  }
+
+  .topbar{
+    height: 100%;
+  }
+
+  .topcontent{
+    padding-top: 30%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .topcontent h1.top-title{
+    font-size: 24px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .topcontent-small h1.top-title {
+    font-size: 24px;
+  }
+
+ #content-cards{
+    padding:0px;
+    margin:0px;
+    border:0px;
+
+  } 
+
+  #content-cards{
+    background: #EEE;
+  }
+
+  #search-box{
+    border:0px;
+  }  
+
+ .search-button{
+    padding: 15px 20px;
+  }
+  
+  .topcontent-small-screen .topcontent-small{
+      padding-top:1px;
+  }  
+
+  .trip-cards{
+    padding-bottom: 30px;
+  }
+
+  .trip-card{
+    background: white;
+    padding: 10px 0px 0px;
+    margin: 10px 0px 0px;
+    background: #fff;
+  }  
+
+  .trip-card .col-sm-6{
+    width: 100%;
+  }
+
+  .topcontent-small-screen .topbar{
+    padding-bottom: 10px;
+  }
+
+  .topcontent-small #search-box {
+    margin-top: 75px;
+    margin-bottom: 70px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .topcontent-small-screen{
+    height: initial;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;  
+  }  
+
+  .topcontent-small-screen #search-box{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;    
+  }
+
+  .topcontent-small-screen h1.top-title {
+    display:none;
+  }
+
+  .trip-cards>.row{
+    padding:0px;
+    font-size:16px;
+  }
+
+  .trip-card{
+    border: 2px solid #EEE;
+  }
+
+  #search-box .col-sm-6{
+    border:0px;
+    padding: 0px;
+    margin-bottom: 5px;
+  }
+
+  .trip-info{
+    padding:5px 0px;
+  }
+
+  .info{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EEE;
+    width:100%;
+  }
+
+  .fare-div{
+    padding: 0px;
+    width: 50%;
+  }
+
+  .coupon-div{
+    padding: 0px;
+    width: 50%;
+  }
+
+  .coupon{
+    width: 100%;
+    text-align:center;  
+    padding: 5px;
+    color: white;
+    padding-top:5px;
+    background: #C92525;
+    height: 50px;
+    border-radius: 0px 0px 3px 0px;
+  }
+
+  .trip-card .fare{
+    width: 100%;
+    padding: 15px 15px;
+    font-size: 16px;
+    background: #4CAE4C;
+    color:white;
+    height: 50px;
+    border-radius: 0px 0px 0px 3px;
+  }
+
+  .box{
+    padding: 0px;
+  }
+
+  .visible-xs{
+    display: inline !important;
+  }
+
+  .trip p{
+    display:inline;
+  }
+
+  .topcontent-small-screen #search-box input {
+    border: 0px;
+    border-bottom: 1px solid #DDD;
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 13px;
+    padding: 8px 25px;
+    background: none;
+    color: #FFF;  
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); 
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0)
+  }
+
+  .topcontent-small-screen .search-button{
+    padding: 8px 20px;
+  }
+
+  .content-cards-small{
+    padding-top:150px !important; 
+  }
+
+  .topcontent-small-screen .input-from::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+  }
+  .topcontent-small-screen .input-from:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color: #fff;
+     opacity:  1;
+  }
+  .topcontent-small-screen .input-from::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color: #fff;
+     opacity:  1;
+  }
+  .topcontent-small-screen .input-from:-ms-input-placeholder { /* Internet Explorer 10+ */
+     color: #fff;
+  }  
+
+  .topcontent-small-screen .input-to::-webkit-input-placeholder { /* WebKit browsers */
+    color: #fff;
+  }
+  .topcontent-small-screen .input-to:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color: #fff;
+     opacity:  1;
+  }
+  .topcontent-small-screen .input-to::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color: #fff;
+     opacity:  1;
+  }
+  .topcontent-small-screen .input-to:-ms-input-placeholder { /* Internet Explorer 10+ */
+     color: #fff;
+  }
+  .disclaimer{
+    font-size:9px;
+    line-height: 15px;
+    padding-top:20px;
+    color:#666;
+    margin-left: 0.5%
+  }
+
+  .info-details{
+    width: 100%;
+    text-align:left;
+    font-size:12px;
+    padding:10px;
+  }
+
+  #content-info{
+    border: 0px;
+    background: #3477bb;
+  }
+}
+
